@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter String"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextInteger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Integer"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextDouble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Double"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnPassDataToAnotherActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pass Data to Activity B" />
+
+</LinearLayout>
